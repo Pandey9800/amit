@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskF</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+
+  .section-mainn{
+    display: flex;
+    font-size: 400%;
+    justify-content: space-between;
+  }
+
+  .left{
+    padding-top: 3%;
+    font-size: 80%;  
+  }
+
+  .contai{
+    padding-top: 3%;
+    font-size: 80%;
+  }
+
+  input[type=text], select, textarea {
+  width: 120%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 1px 1px 1px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-25 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  </style>
+</head>
+
+
+<body>
+  <div class="header_logo">
+    <div class="box">
+      <img id="img1" src="gkf.png" class="w-[150px] h-[150px]">
+    </div>
+    <div class="box">
+      <h1 class="heading">2021 AIMT CONFERENCE</h1>
+      <h1 class="heading1">(VIRTUAL)</h1>
+      <p class="para">INTERDISCIPLINARY RESEARCH IN APPLIED MATHEMATICS, MANAGEMENT AND TECHNOLOGY (IRAMMT)</p>
+    </div>
+    <div class="box">
+      <img id="img2" src="aimt.png" class="w-[150px] h-[150px] align-middle">
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-size-6%"
+    style="font-size: 280%; padding-bottom: 1%; padding-top: 1%;">
+    <div class="container-fluid">
+      <button class="navbar-toggler text-white" style="font-size: larger; color: white;" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white color-white"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="venue.html">Venue</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="scope.html">Scope</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="impdates.html">Important Dates</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="orgcom.html">Organizing Committee</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="papersubmission.html">Paper Submission</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="publication.html">Publication</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="registration.html">Registration</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link active text-white" aria-current="page" href="contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="marq_contai">
+      <section class="marq">
+        <div class="head">
+          <label class="imp">IMPORTANT</label>
+        </div>
+        <div class="text">
+          <marquee scrollamount="5">
+            <h1>The American Institute of Management and Technology (AIMT), an academic subsidiary of
+              The Global Knowledge Foundation (GKF), USA &nbsp; &nbsp; &nbsp; Call for paper for AIMT 2021 &nbsp; &nbsp;
+              &nbsp; Last Date of paper submission 31st May 2021 &nbsp; &nbsp; &nbsp; Please visit www.gkfusa.org for
+              more details</h1>
+          </marquee>
+        </div>
+      </section>
+    </div>
+
+    <main>
+      <section class="section-mainn">
+        <div class="left">
+          <h1 style="font-size: 120%;  text-decoration: underline;">PROGRAMS CHAIR</h1> <br>
+
+          <ul>
+            <li style="font-size: 2.5rem;">Dr. Sally Sledge, Norfolk State University, USA</li>
+            <li style="font-size: 2.5rem;">Dr. H.S. Hota, Atal Bihari Vajpayee University, India</li> <br><br>
+            <p style="font-size: 2rem;"><b>Contact Us At :-</b></p>
+            <p><b>aimtconference@gmail.com</b></p>
+          </ul>
+        </div>
+
+        <div class="contai">
+          <form action="#">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Full Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your full name...">
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="text" placeholder="Your email address...">
+              </div>
+            </div>
+        
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Your Message</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
+              </div>
+            </div>
+          </form>
+          <input style="width: 30%; margin-right: 26%; padding-bottom: 1%;" type="submit" value="Submit"> <br><br>
+        </section>
+      </div>
+      </main>
+
+  </div>
+
+
+  <footer>
+    <div class="footer-bottom">
+      <p>copyright &copy;2023 Designed by <span>AON-Digicon</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
